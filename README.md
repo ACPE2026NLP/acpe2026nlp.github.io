@@ -20,7 +20,7 @@ python3 build.py
 python3 -m http.server 8766 --bind 127.0.0.1
 ```
 
-Open http://127.0.0.1:8766. No package installation or application server is required. Search and filters are progressive enhancements; resource links remain available without JavaScript. Checklist selections stay in the visitor's browser and are not sent to a server. Fonts are loaded from Google Fonts with system fallbacks.
+Open http://127.0.0.1:8766. No package installation or application server is required. Search and filters are progressive enhancements; resource links remain available without JavaScript. Checklist selections stay in the visitor's browser and are not sent to a server. The interface uses a white clinical layout, system fonts, charcoal text, thin grey dividers and restrained blue accents, following the Mira workspace design.
 
 ## Content and release status
 
@@ -32,3 +32,7 @@ Open http://127.0.0.1:8766. No package installation or application server is req
 - The three pre-course reading URLs were supplied by the teaching team. Publisher access may be required for the journal article.
 
 Only attendee resources belong here. Do not add instructor answer keys, controller state, survey data, private email threads, or account credentials. Check links with a participant account before releasing new resources. Rights in contributed teaching materials remain with their authors; no blanket reuse licence is granted by this repository.
+
+## Visual direction
+
+White surfaces and blue actions follow the Mira clinical workspace. Fine rules, directly labelled evidence and an aligned resource list follow [Tufte’s analytical design guidance](https://www.edwardtufte.com/notebook/analytical-design-and-human-factors/). Small red squares, blue circles and yellow triangles reference [Bauhaus colour and form studies](https://www.bauhaus.de/en/sammlung/highlights/204_unterricht/444); shapes sit beside written labels rather than carrying meaning by colour alone. No installed Tufte skill was available during this revision; these principles were applied directly.

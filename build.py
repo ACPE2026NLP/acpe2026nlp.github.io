@@ -25,8 +25,8 @@ for item in resources:
     else:
         action = f'<p class="pending"><span aria-hidden="true">◷</span> {e("status")}</p>'
     cards.append(f'''<article class="resource-card" data-category="{e('category')}">
-      <p class="eyebrow">{e('type')}</p><h3>{e('title')}</h3>
-      <p class="resource-description">{e('description')}</p>{action}</article>''')
+      <p class="eyebrow">{e('type')}</p><div class="resource-content"><h3>{e('title')}</h3>
+      <p class="resource-description">{e('description')}</p></div>{action}</article>''')
 template = (ROOT / "index.template.html").read_text()
 (ROOT / "index.html").write_text(template.replace("<!-- RESOURCE_CARDS -->", "\n".join(cards)))
 print(f"Built index.html with {len(cards)} resources.")
